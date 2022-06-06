@@ -1,0 +1,56 @@
+How to start git
+command
+=> git init // to start git
+
+=> git status // to check the status
+
+=> git add . // to add code in git
+
+=> git status // to check the status
+
+=> git commit -m "inital commit" // to commit if git don't recognized you then
+
+=> git config --global user.email "user@gmail.com"
+
+=> git config --global user.name "User Last"
+
+=> git config --global user.email // to check email
+
+=> git config --global user.name // to check name
+
+after this do commit
+
+=> git commit -m "inital commit"
+
+then check git status
+
+=> git status
+
+=> git diff //to see the change
+
+=> git log //to see history
+
+=> ssh-keygen -t rsa -b 2048 -C "user@gmail.com" //generating ssh key just click enter 
+
+=> pwd // to check your directory
+
+=> ls ~/.ssh/
+
+=> cat ~/.ssh/id_rsa.pub // it gives ssh key then go to github setting and "SSH and GPG keys" then set ssh key 
+
+=> git remote add origin git@fithub.com:B-nod/forestcss.git
+
+=> git remote -v
+
+=> git push -u origin master
+
+=> git status
+
+=> git add css/style.css // to add changed file
+
+=> git commit -m "new change" // then commit
+
+
+
+
+
